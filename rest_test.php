@@ -1,7 +1,7 @@
 <?php
 header("Content-Type:application/json");
 
-deliver_responsive(100,'book found','deneme');
+
 function deliver_responsive($status,$status_message,$data){
     header("HTTP/1.1 $status $status_message");
     $response['status'] =$status;
